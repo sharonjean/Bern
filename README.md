@@ -1,6 +1,6 @@
 # Bern
 
-Get quotes and gifs of Bernie Sanders!
+Get Bernie Sanders quotes from bern-db.com!
 
 ## Installation
 
@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Bern.find(3)
+# returns Bernie quote with id of 3
+=> "A male African-American baby born today stands a one-in-four chance of ending up in jail. That is beyond unspeakable.\r\n\r\nSo what we have to do is the radical reform of a broken criminal justice system."
+
+Bern.tagged("crime")
+# returns a random Bernie quote with the tag "crime"
+=> "We will invest in education, and jobs for our kids, not incarceration and more jails."
+```
 
 ## Development
 

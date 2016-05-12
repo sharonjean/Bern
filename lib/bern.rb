@@ -15,10 +15,5 @@ module Bern
     response.map { |quote| quotes << quote["text"] }
     puts quotes.sample
   end
-
-  def self.random(tag)
-    tagged(tag)
-  end
-
 end
 
