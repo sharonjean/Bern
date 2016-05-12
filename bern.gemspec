@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sharon Claitor"]
   spec.email         = ["sclaitor@gmail.com"]
 
-  spec.summary       = %q{bern quotes and gifs}
+  spec.summary       = %q{Bernie Sanders quotes from bern-db.com!}
   spec.homepage      = "https://github.com/sharonjean/bern"
   spec.license       = "MIT"
 
